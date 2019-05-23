@@ -1,0 +1,52 @@
+# Supply Drop Plus
+# written by: thesugarchris
+#
+# Placeholders:
+#  %dropName%
+#  %envoyName%
+#
+# Info:
+#  'DropAtMaxHeight' will start the supply drop at the build height,
+#   but if set to false, the drop will instead start at the specified drop height.
+#
+Options:
+  DropAtMaxHeight: false
+  DropHeight: 30
+  SpawnTorchesAround: true
+  EnableGlider: false
+  SupplyDropName: "&f&lSupply Drop: &8&l&o%dropName%"
+  SupplyDropFireworkType: "BURST"
+  SupplyDropParticle1: "SMOKE_LARGE"
+  SupplyDropParticle2: "EXPLOSION_HUGE"
+Messages:
+  InsufficientPermissions: "&c&lInsufficient permissions."
+  InsufficientPermissionsPerDrop: "&c&lInsufficient permissions for supply drop: &4&l&o%dropName%"
+  SpecifyDropName: "&c&lPlease specify a drop name."
+  SpecifyValidDropName: "&c&lPlease specify a valid drop name."
+  SavedDrop: "&a&lSuccessfully saved drop: &2&l&o%dropName%"
+  DeleteDrop: "&a&lSuccessfully deleted drop: &2&l&o%dropName%"
+  NotOnGroundError: "&c&lYou can not request supply drops while in the air."
+  NoFlatAreaError: "&c&lPlease move to a flat location (3x3 area)."
+  NoSpaceAboveError: "&c&lPlease move to a location with space above."
+  RequestedDrop: "&f&lDropping supply drop: &7&l&o%dropName%"
+  SpecifyEnvoyName: "&c&lPlease specify an envoy name."
+  SpecifyValidEnvoyName: "&c&lPlease specify a valid envoy name."
+  SpecifyAddDropArgs: "&c&lPlease specify envoy name, drop name, and drop chance."
+  SpecifyRemoveDropArgs: "&c&lPlease specify envoy name and drop name."
+  SpecifySetLengthArgs: "&c&lPlease specify envoy name and a number for the length of the envoy."
+  SpecifyDropCountArgs: "&c&lPlease specify envoy name and a number for the drop count of the envoy."
+  SpecifyBothBoundaryPos: "&c&lPlease specify both boundary positions for the envoy before starting."
+  SpecifyEnvoyDrops: "&c&lPlease specify some drops for the envoy before starting."
+  SpecifyValidPercentForChance: "&c&lPlease specify a valid percent for the drop chance."
+  SpecifyValidNumberForLength: "&c&lPlease specify a valid number for the envoy length."
+  SpecifyValidNumberForDropCount: "&c&lPlease specify a valid number for the drop count of the envoy."
+  SpecifyValidEnvoySubcommand: "&c&lPlease specify a valid envoy command: &4&l/envoy help"
+  CreatedEnvoy: "&a&lSuccessfully created new envoy: &2&l&o%envoyName%"
+  AddedFirstEnvoyPos: "&a&lSuccessfully added first position for envoy: &2&l&o%envoyName%"
+  AddedSecondEnvoyPos: "&a&lSuccessfully added second position for envoy:  &2&l&o%envoyName%"
+  AddedDropToEnvoy: "&a&lSuccessfully added drop: &2&l&o%dropName%&r &a&lto envoy: &2&l&o%envoyName%"
+  RemovedDropFromEnvoy: "&a&lSuccessfully removed drop: &2&l&o%dropName%&r &a&lfrom envoy: &2&l&o%envoyName%"
+  SetLengthOfEnvoy: "&a&lSuccessfully set the length of envoy: &2&l&o%envoyName%"
+  SetDropCountForEnvoy: "&a&lSuccessfully set the drop count of envoy: &2&l&o%envoyName%"
+  StartedEnvoy: "&a&lSuccessfully started envoy: &2&l&o%envoyName%"
+  DeletedEnvoy: "&a&lSuccessfully deleted envoy: &2&l&o%envoyName%"

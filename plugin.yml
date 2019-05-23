@@ -1,0 +1,13 @@
+name: SupplyDropPlus
+author: TheSugarChris
+version: 1.0.2
+main: net.minenite.warzairdrops.Main
+commands:
+  supplydrop:
+    description: Request a supply drop
+  editsupplydrop:
+    description: Edit supply drop contents
+  deletesupplydrop:
+    description: Delete a supply drop
+  envoy:
+    description: Envoy creator and configuration command
