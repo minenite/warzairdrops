@@ -6,6 +6,6 @@ Can drop anything you'd like in the chest.
 
 **TO DO LIST:**
 - [X] Chest drops from sky.
-- [ ] Make loot in chest config file.
-- [ ] Make chest auto despawn before the next one spawns.
-- [ ] Make last chest be removed when server stop/restart is triggered.
+- [X] Make loot in chest config file. (Change in file)
+- [X] Make chest auto despawn before the next one spawns.
+- [X] Make last chest be removed when server stop/restart is triggered. (Use nosave.jar)
